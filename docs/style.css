@@ -1,5 +1,7 @@
 header {
     background-color: #333448;
+    display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -28,14 +30,22 @@ nav li a:hover {
 }
 
 body {
-    background-color: #606288;
+    background-color: #333448;
+    /* Matches footer */
     color: white;
     font-family: 'Figtree', sans-serif;
+}
+
+#content {
+    background-color: #606288;
+    padding: 40px;
 }
 
 #face {
     max-width: 50%;
     height: auto;
+    margin-bottom: 40px;
+    /* Adjust the spacing as needed */
 }
 
 .faculty-glyphic-regular {
@@ -57,7 +67,6 @@ h1 {
 }
 
 footer {
-    background-color: #333448;
     text-align: center;
     width: 100%;
     margin: 0;
@@ -74,14 +83,12 @@ footer ul {
     gap: 30px;
     /* Spacing between items */
 }
-footer a {
-  color: white;              /* Match footer theme */
-  text-decoration: none;     /* Removes underline */
-}
+
 footer li {
     font-size: 1rem;
     color: rgb(183, 176, 196);
 }
+
 footer a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
