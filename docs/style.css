@@ -1,5 +1,5 @@
-.header {
-    background: #333448;
+header {
+    background-color: #333448;
 }
 
 nav ul {
@@ -7,9 +7,10 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    /* or display: inline-block */
     justify-content: space-around;
-    /* For even spacing */
+    /* or space-around / space-between */
+    gap: 20px;
+    /* Optional: spacing between items */
 }
 
 nav li a {
@@ -29,7 +30,7 @@ nav li a:hover {
     color: rgb(255, 255, 255);
 }
 
-.body {
+body {
     background-color: #606288;
 }
 
