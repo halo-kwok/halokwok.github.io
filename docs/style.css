@@ -74,8 +74,14 @@ footer ul {
     gap: 30px;
     /* Spacing between items */
 }
-
+footer a {
+  color: white;              /* Match footer theme */
+  text-decoration: none;     /* Removes underline */
+}
 footer li {
     font-size: 1rem;
     color: rgb(183, 176, 196);
+}
+footer a:hover {
+  text-decoration: underline;
 }
