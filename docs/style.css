@@ -15,14 +15,11 @@ nav ul {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(183, 176, 196);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 nav li a:hover {
@@ -32,6 +29,8 @@ nav li a:hover {
 
 body {
     background-color: #606288;
+    color: white;
+    font-family: 'Figtree', sans-serif;
 }
 
 #face {
@@ -52,9 +51,31 @@ body {
     font-style: normal;
 }
 
-.h1 {
+h1 {
     color: white;
     font-family: "Faculty Glyphic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+}
+
+footer {
+    background-color: #333448;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Optional: horizontal list */
+    justify-content: center;
+    /* Center the list items */
+    gap: 30px;
+    /* Spacing between items */
+}
+
+footer li {
+    font-size: 1rem;
+    color: rgb(183, 176, 196);
 }
