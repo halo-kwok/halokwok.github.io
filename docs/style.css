@@ -1,7 +1,6 @@
 header {
     background-color: #333448;
-    display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 nav ul {
@@ -19,7 +18,6 @@ nav li a {
     display: block;
     color: rgb(183, 176, 196);
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-family: "Figtree", sans-serif;
 }
@@ -45,9 +43,31 @@ body {
     max-width: 50%;
     height: auto;
     margin-bottom: 40px;
+    border-radius: 10px;
+    /* Optional: rounded corners */
+    border: 3px solid rgb(183, 176, 196);
+    /* Subtle border in your color */
     /* Adjust the spacing as needed */
 }
 
+.about-section {
+    display: flex;
+    align-items: center;
+    /* Vertically align image and text */
+    gap: 30px;
+    /* Space between image and text */
+    padding: 20px;
+}
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+}
 .faculty-glyphic-regular {
     font-family: "Faculty Glyphic", sans-serif;
     font-weight: 400;
@@ -66,10 +86,17 @@ h1 {
     font-family: "Faculty Glyphic", sans-serif;
 }
 
+h2 {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 2rem;
+}
+
 footer {
     text-align: center;
     width: 100%;
     margin: 0;
+    padding-top: 40px;
+    color: rgb(183, 176, 196);
 }
 
 footer ul {
@@ -84,9 +111,12 @@ footer ul {
     /* Spacing between items */
 }
 
+footer a {
+    text-decoration: none;
+}
+
 footer li {
     font-size: 1rem;
-    color: rgb(183, 176, 196);
 }
 
 footer a:hover {
